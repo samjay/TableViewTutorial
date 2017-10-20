@@ -15,6 +15,7 @@
 		6359F1A81F8E3E77007832DE /* TableViewTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359F1A71F8E3E77007832DE /* TableViewTutorialTests.swift */; };
 		6359F1B31F8E3E77007832DE /* TableViewTutorialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359F1B21F8E3E77007832DE /* TableViewTutorialUITests.swift */; };
 		6359F1C11F8E412B007832DE /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6359F1C01F8E412B007832DE /* MealTableViewCell.swift */; };
+		635A1C961F99E983002D8E19 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635A1C951F99E983002D8E19 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6359F1B21F8E3E77007832DE /* TableViewTutorialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewTutorialUITests.swift; sourceTree = "<group>"; };
 		6359F1B41F8E3E77007832DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6359F1C01F8E412B007832DE /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		635A1C951F99E983002D8E19 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +103,9 @@
 			children = (
 				6359F1921F8E3E77007832DE /* AppDelegate.swift */,
 				6359F1941F8E3E77007832DE /* ViewController.swift */,
-				6359F1961F8E3E77007832DE /* Main.storyboard */,
+				635A1C951F99E983002D8E19 /* RatingControl.swift */,
 				6359F1C01F8E412B007832DE /* MealTableViewCell.swift */,
+				6359F1961F8E3E77007832DE /* Main.storyboard */,
 				6359F1991F8E3E77007832DE /* Assets.xcassets */,
 				6359F19B1F8E3E77007832DE /* LaunchScreen.storyboard */,
 				6359F19E1F8E3E77007832DE /* Info.plist */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635A1C961F99E983002D8E19 /* RatingControl.swift in Sources */,
 				6359F1951F8E3E77007832DE /* ViewController.swift in Sources */,
 				6359F1931F8E3E77007832DE /* AppDelegate.swift in Sources */,
 				6359F1C11F8E412B007832DE /* MealTableViewCell.swift in Sources */,
